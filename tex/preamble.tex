@@ -1,0 +1,44 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[russian]{babel}
+\usepackage{cmap}
+\usepackage[utf8]{inputenc}
+\usepackage[usenames]{color}
+\usepackage{tabularray}
+\usepackage{xcolor}
+\usepackage{graphicx} 
+\usepackage{subfigure}
+\usepackage{subcaption}
+
+\usepackage[unicode]{hyperref} % цвета гиперссылок
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=blue,
+	urlcolor=black
+}
+
+\usepackage{geometry} % задаёт поля 
+%\geometry{left=3cm}
+%\geometry{right= 1.5cm}
+%\geometry{top=2cm}
+%\geometry{bottom=2cm} 
+
+\usepackage{enumitem} % настраивает работу со списками:
+\def\labelitemi{—} % ... задаёт длинное тире как стандартный маркер ненумерованного списка
+\setlist{nolistsep} %  ... убирает дополнительный отступы между элементами списка
+
+
+% удаляет названия и продолжение следует и т. для таблиц, будет только таблица без всего
+\DefTblrTemplate{contfoot-text}{default}{}
+\DefTblrTemplate{conthead-text}{default}{}
+\DefTblrTemplate{caption}{default}{}
+\DefTblrTemplate{conthead}{default}{}
+\DefTblrTemplate{capcont}{default}{}
+
+
+\title{Бинарная модель востребованности контента\\и ее вероятностный прогноз}
+\author{В. Г. Мосин}
+\date{}
+
