@@ -17,7 +17,7 @@ https://github.com/vladimir-mosin/binarization-threshold/blob/main/code.ipynb
 [статья об этом исследовании ](
 https://github.com/vladimir-mosin/binarization-threshold/blob/main/paper.pdf
 )
-в формате pdf и 
+в формате pdf и 4) 
 [TeX исходник ](
 https://github.com/vladimir-mosin/binarization-threshold/blob/main/paper.tex
 )
